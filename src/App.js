@@ -1,7 +1,7 @@
 // useState hook: used to manage state of react app
 // you can change the data
 import './App.css';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 // state: data
 // uncontrolled {useRef} vs controlled {useState}
@@ -77,6 +77,8 @@ function App() {
                 <span className="icon" onClick={() => { deleteTask(i) }} >❌</span>
               </div>
             )
+            }else{
+              return ''
             }
             
           })

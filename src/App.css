@@ -21,7 +21,7 @@ body{
   width: 100vw;
   display: flex;
   
-  justify-content: start;
+  justify-content:flex-start;
   align-items:center;
   flex-direction: column;
 }
@@ -96,7 +96,7 @@ cursor: pointer;
   height: 60px;
   display: flex;
   padding-right:100px ;
-  justify-content:end;
+  justify-content: flex-end;
   align-items:center;
 }
 .search input{
